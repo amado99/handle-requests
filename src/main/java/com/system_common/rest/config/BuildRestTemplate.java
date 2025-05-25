@@ -15,7 +15,7 @@ public class BuildRestTemplate {
                                             RestTemplateResponseErrorHandler handlerError){
         RestTemplate restTemplate = restTemplateBuilder.connectTimeout(Duration.ofSeconds(2)).build();
         restTemplate.setErrorHandler(handlerError);
-        return new RestTemplate();
+        return restTemplate;
     }
 
 
