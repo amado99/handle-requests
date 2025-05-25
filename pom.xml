@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.system-common.rest</groupId>
 	<artifactId>handle-rest-api</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<name>HandleRestApis</name>
 	<description>This is a test</description>
 	<packaging>jar</packaging>
